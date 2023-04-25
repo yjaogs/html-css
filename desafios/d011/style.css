@@ -11,6 +11,10 @@
     margin: 0px;
 }
 
+p{
+    padding: 30px;
+}
+
 a{
     text-decoration: none;
     font-weight:bolder;
@@ -42,16 +46,39 @@ header>p{
     text-align: center;
 }
 
-main{
-    padding: 30px;
-}
+main{ 
+    hv:98%;
+    padding: 0px;
+    }
+
+    .verso1{
+        color: white;
+    padding-top:50px;
+    background-color: rgba(0, 0, 0, 0.521);
+    width: 300px;
+    }
 
 .joaninha{
+    background-image:url('https://farm7.staticflickr.com/6025/5970766922_a41bf7696f_z.jpg');
     background-color:rgba(0, 0, 0, 0.486);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
 }
 
-.folhas{
+.verso2{
+    color: white;
+    padding-top:50px;
+    background-color: rgba(0, 0, 0, 0.521);
+    width: 300px;
+}
+
+.livro{
+    background-image: url('https://cdn.pixabay.com/photo/2017/01/07/15/07/bible-1960635_960_720.jpg');
+    background-attachment: fixed;
     background-color:var(--cor2);
+    height: 300px;
 }
 
 footer{
