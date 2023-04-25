@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+:root{
+    --cor1:black;
+    --cor2:white;
+    --cor3:rgba(0, 0, 0, 0.486);
+    --cor4:#00000000;
+}
+
 *{
     margin: 0px;
 }
@@ -7,14 +14,14 @@
 a{
     text-decoration: none;
     font-weight:bolder;
-    color: white;
+    color:var(--cor2);
 }
 a:hover{
     text-decoration:underline;
 }
 
 header{
-    background-color: rgb(0, 0, 0);
+    background-color:var(--cor1);
     
 }
 
@@ -33,6 +40,18 @@ header>p{
     padding-bottom: 50px;
     padding-top: 0px;
     text-align: center;
+}
+
+main{
+    padding: 30px;
+}
+
+.joaninha{
+    background-color:rgba(0, 0, 0, 0.486);
+}
+
+.folhas{
+    background-color:var(--cor2);
 }
 
 footer{
