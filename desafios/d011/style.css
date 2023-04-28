@@ -15,9 +15,13 @@
     margin: 0px;
 }
 
+html, body{
+    background-color: rgb(253, 252, 252);
+}
+
 p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1,5em;
+    font-family: cursive;
+    font-size: 1em;
     padding: 30px;
     line-height: 30px;
 
@@ -34,6 +38,7 @@ a:hover{
 
 header{
     background-color:var(--cor1);
+    border-radius: 0px 0px 5px 5px;
     
 }
 
@@ -41,6 +46,7 @@ header>h1{
     color: white;
     font: weight 999px;;
     font-size: 50px;
+    font-variant: small-caps;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 0px;
