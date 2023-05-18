@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input{
+            border: 1px solid rgb(82, 56, 82);
+        }
+
+        form#form1{
+            padding: 5px;
+            margin-bottom: 20px;
+            width: 300px;
+            border: 1px solid rgba(0, 0, 255, 0.548);
+        }
+        form#form2{
+            padding: 5px;
+            width: 300px;
+            padding-top: 20px;
+            border: 1px solid rgba(0, 0, 255, 0.425);
+        }
+    </style>
+</head>
+<body>
+    <h1>Primeiro Formulário</h1>
+    <form id="form1" method="post" action="cadastro.php" autocomplete="off">
+        <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
+
+        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="nome" id="isobrenome"></p>
+
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+
+    <form id="form2" action="cadasrtro.php" autocomplete="off">
+        <p><label for="Iidade">Idade</label> <input type="text" name="idade" id="Iidade"></p>
+        <p><label for="icor">Cor</label> <input type="text" name="cor" id="icor"></p>
+
+
+        <p><input type="submit" value="Enviar"></p>
+
+    </form>
+</body>
+</html>
